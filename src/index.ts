@@ -27,7 +27,7 @@ function initMonaco(data) {
                 return data.appPath + '/dist/editor.worker.bundle.js';
             }
         };
-        monaco.editor.create(document.querySelector(`[${data.uniqueDomAttribute}]`)!, data.confMe);
+        monaco.editor.create(document.querySelector(`[${data.uniqueDomAttribute}]`)!, data.confMonaco);
     });
 }
 

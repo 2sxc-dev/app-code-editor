@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="14.07.04" ExportDate="2022-08-25T12:25:55.1790841+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="14.07.04" ExportDate="2022-08-25T14:40:41.7948914+02:00">
   <Header>
     <App Guid="8f3841b9-c2cb-4fc2-8b6f-3a64f94823cd" />
     <Language Default="en-us" />
@@ -92,9 +92,9 @@
     <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="2SexyContent-App" AttributeSetName="2SexyContent-App" EntityGUID="a40e8bc3-3310-499e-83fd-d33fba750ca7" Json="True" KeyNumber="51">
       <Value Key="AllowRazorTemplates" Value="True" Type="Boolean" />
       <Value Key="AllowTokenTemplates" Value="True" Type="Boolean" />
-      <Value Key="Description" Value="2sxc app for showing code snippets in monaco editor" Type="String" />
-      <Value Key="DisplayName" Value="CodeSample" Type="String" />
-      <Value Key="Folder" Value="CodeSample" Type="String" />
+      <Value Key="Description" Value="2sxc app for showing code snippets in Monaco editor" Type="String" />
+      <Value Key="DisplayName" Value="Code-Editor" Type="String" />
+      <Value Key="Folder" Value="Code-Editor" Type="String" />
       <Value Key="Hidden" Value="False" Type="Boolean" />
       <Value Key="OriginalId" Value="" Type="String" />
       <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String" />
@@ -169,6 +169,6 @@
   </Entities>
   <PortalFiles />
   <PortalFolders>
-    <Folder Id="1025" RelativePath="adam/CodeSample/" />
+    <Folder Id="1026" RelativePath="adam/Code-Editor/" />
   </PortalFolders>
 </SexyContent>

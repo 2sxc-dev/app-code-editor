@@ -1,8 +1,8 @@
 {
-  "name": "code-sample",
+  "name": "code-editor",
   "version": "01.00.00",
   "description": "2sxc app for showing code snippets in monaco editor",
-  "main": "index.ts",
+  "main": "",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "node ./node_modules/webpack/bin/webpack.js --progress"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="14.07.04" ExportDate="2022-08-25T10:23:36.4755055+02:00">
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="14.07.04" ExportDate="2022-08-25T12:25:55.1790841+02:00">
   <Header>
     <App Guid="8f3841b9-c2cb-4fc2-8b6f-3a64f94823cd" />
     <Language Default="en-us" />
@@ -90,10 +90,18 @@
   </AttributeSets>
   <Entities>
     <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="2SexyContent-App" AttributeSetName="2SexyContent-App" EntityGUID="a40e8bc3-3310-499e-83fd-d33fba750ca7" Json="True" KeyNumber="51">
-      <Value Key="DisplayName" Value="CodeSampleTS" Type="String" />
-      <Value Key="Folder" Value="CodeSampleTS" Type="String" />
+      <Value Key="AllowRazorTemplates" Value="True" Type="Boolean" />
+      <Value Key="AllowTokenTemplates" Value="True" Type="Boolean" />
+      <Value Key="Description" Value="2sxc app for showing code snippets in monaco editor" Type="String" />
+      <Value Key="DisplayName" Value="CodeSample" Type="String" />
+      <Value Key="Folder" Value="CodeSample" Type="String" />
+      <Value Key="Hidden" Value="False" Type="Boolean" />
       <Value Key="OriginalId" Value="" Type="String" />
-      <Value Key="Version" Value="00.00.13" Type="String" />
+      <Value Key="RequiredDnnVersion" Value="07.02.00" Type="String" />
+      <Value Key="RequiredOqtaneVersion" Value="" Type="String" />
+      <Value Key="RequiredVersion" Value="08.03.00" Type="String" />
+      <Value Key="SupportsAjaxReload" Value="False" Type="Boolean" />
+      <Value Key="Version" Value="01.00.00" Type="String" />
     </Entity>
     <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="93fad585-ab2d-4d99-9259-5e11166f919a" KeyNumber="51" />
     <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="4c1e7769-7f55-4130-9d2b-d552a54aea55" KeyNumber="51" />
@@ -111,8 +119,8 @@
       <Value Key="ListContentTypeStaticName" Value="" Type="String" />
       <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
       <Value Key="Location" Value="Site" Type="String" />
-      <Value Key="Name" Value="CodeInMonacoTS" Type="String" />
-      <Value Key="Path" Value="_CodeInMonacoTS.cshtml" Type="String" />
+      <Value Key="Name" Value="CodeInMonaco" Type="String" />
+      <Value Key="Path" Value="_CodeInMonaco.cshtml" Type="String" />
       <Value Key="PresentationTypeStaticName" Value="" Type="String" />
       <Value Key="PublishData" Value="False" Type="Boolean" />
       <Value Key="SearchIndexingDisabled" Value="False" Type="Boolean" />
@@ -148,9 +156,19 @@
       <Value Key="theme" Value="vs-dark" Type="String" />
       <Value Key="value" Value="namespace HelloWorld123&#xA;{&#xA;    class HelloWorld {         &#xA;        static void Main(string[] args)&#xA;        {&#xA;            System.Console.WriteLine(&quot;Hello&quot;);&#xA;        }&#xA;    }&#xA;}" Type="String" />
     </Entity>
+    <Entity TargetType="5" AssignmentObjectType="ContentType" AttributeSetStaticName="ContentType" AttributeSetName="ContentType" EntityGUID="7ff3fe96-31df-42c9-b9c7-cba173b17c2f" Json="True" KeyString="81230402-b1f5-46a9-9e49-52b44ff0bec7">
+      <Value Key="Description" Value="This is a main content type used for storing code and monaco configuration" Type="String" />
+      <Value Key="DynamicChildrenField" Value="" Type="String" />
+      <Value Key="EditInstructions" Value="" Type="String" />
+      <Value Key="Icon" Value="" Type="Hyperlink" />
+      <Value Key="Label" Value="Code" Type="String" />
+      <Value Key="Link" Value="" Type="Hyperlink" />
+      <Value Key="ListInstructions" Value="" Type="String" />
+      <Value Key="Notes" Value="" Type="String" />
+    </Entity>
   </Entities>
   <PortalFiles />
   <PortalFolders>
-    <Folder Id="1024" RelativePath="adam/CodeSampleTS/" />
+    <Folder Id="1025" RelativePath="adam/CodeSample/" />
   </PortalFolders>
 </SexyContent>

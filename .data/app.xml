@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SexyContent FileVersion="07.00.00" MinimumRequiredVersion="07.04.02" ModuleVersion="14.07.04" ExportDate="2022-08-25T10:23:36.4755055+02:00">
+  <Header>
+    <App Guid="8f3841b9-c2cb-4fc2-8b6f-3a64f94823cd" />
+    <Language Default="en-us" />
+    <Dimensions />
+  </Header>
+  <AttributeSets>
+    <AttributeSet StaticName="App-Resources" Name="App-Resources" Description="Stores resources like translations for an app" Scope="System.App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="App-Settings" Name="App-Settings" Description="Stores settings for an app" Scope="System.App" AlwaysShareConfiguration="false">
+      <Attributes />
+    </AttributeSet>
+    <AttributeSet StaticName="81230402-b1f5-46a9-9e49-52b44ff0bec7" Name="Code" Description="" Scope="Default" AlwaysShareConfiguration="false">
+      <Attributes>
+        <Attribute StaticName="value" Type="String" IsTitle="true">
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="67a4bc0f-2e52-4b16-9260-002319cc74e4" Json="True" KeyNumber="1066">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="DisableTranslation" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="string-default" Type="String" />
+            <Value Key="Name" Value="value" Type="String" />
+            <Value Key="Notes" Value="" Type="String" />
+            <Value Key="Placeholder" Value="" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@String" AttributeSetName="@String" EntityGUID="d385e8ea-2b0b-40e4-bde4-43c057485a60" Json="True" KeyNumber="1066">
+            <Value Key="DropdownValues" Value="" Type="String" />
+            <Value Key="InputType" Value="" Type="String" />
+          </Entity>
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-default" AttributeSetName="@string-default" EntityGUID="248fd7a8-8d08-4e85-bbd7-85a69dacd2b7" Json="True" KeyNumber="1066">
+            <Value Key="InputFontFamily" Value="monospace" Type="String" />
+            <Value Key="RowCount" Value="10" Type="Number" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="language" Type="String" IsTitle="false">
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="4320160f-d639-4f22-8d02-b0255204fb3d" Json="True" KeyNumber="1067">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="csharp" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="DisableTranslation" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="string-dropdown" Type="String" />
+            <Value Key="Name" Value="language" Type="String" />
+            <Value Key="Notes" Value="" Type="String" />
+            <Value Key="Placeholder" Value="" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@String" AttributeSetName="@String" EntityGUID="53924507-5e06-4c74-b549-e7cc7d9bf42a" Json="True" KeyNumber="1067">
+            <Value Key="DropdownValues" Value="" Type="String" />
+            <Value Key="InputType" Value="" Type="String" />
+          </Entity>
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-dropdown" AttributeSetName="@string-dropdown" EntityGUID="653b7c0f-033b-4197-9844-2684da504edd" Json="True" KeyNumber="1067">
+            <Value Key="DropdownValues" Value="javascript:JS&#xA;csharp:C#&#xA;html:HTML" Type="String" />
+            <Value Key="DropdownValuesFormat" Value="value-label" Type="String" />
+            <Value Key="EnableTextEntry" Value="False" Type="Boolean" />
+          </Entity>
+        </Attribute>
+        <Attribute StaticName="theme" Type="String" IsTitle="false">
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@All" AttributeSetName="@All" EntityGUID="81467008-42cf-482d-ac72-0b7ec1abf722" Json="True" KeyNumber="1068">
+            <Value Key="CustomJavaScript" Value="" Type="String" />
+            <Value Key="DefaultValue" Value="vs-dark" Type="String" />
+            <Value Key="Disabled" Value="False" Type="Boolean" />
+            <Value Key="DisableTranslation" Value="False" Type="Boolean" />
+            <Value Key="InputType" Value="string-dropdown" Type="String" />
+            <Value Key="Name" Value="theme" Type="String" />
+            <Value Key="Notes" Value="" Type="String" />
+            <Value Key="Placeholder" Value="" Type="String" />
+            <Value Key="Required" Value="False" Type="Boolean" />
+            <Value Key="ValidationRegExJavaScript" Value="" Type="String" />
+            <Value Key="VisibleInEditUI" Value="True" Type="Boolean" />
+          </Entity>
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@String" AttributeSetName="@String" EntityGUID="e0df2b39-2c86-4227-99b1-5911482a9980" Json="True" KeyNumber="1068">
+            <Value Key="DropdownValues" Value="" Type="String" />
+            <Value Key="InputType" Value="" Type="String" />
+          </Entity>
+          <Entity TargetType="2" AssignmentObjectType="EAV Field Properties" AttributeSetStaticName="@string-dropdown" AttributeSetName="@string-dropdown" EntityGUID="3782781b-6b03-48f3-a09f-1d6f1f8f0032" Json="True" KeyNumber="1068">
+            <Value Key="DropdownValues" Value="vs&#xA;vs-dark&#xA;hc-black" Type="String" />
+            <Value Key="DropdownValuesFormat" Value="value-label" Type="String" />
+            <Value Key="EnableTextEntry" Value="False" Type="Boolean" />
+          </Entity>
+        </Attribute>
+      </Attributes>
+    </AttributeSet>
+  </AttributeSets>
+  <Entities>
+    <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="2SexyContent-App" AttributeSetName="2SexyContent-App" EntityGUID="a40e8bc3-3310-499e-83fd-d33fba750ca7" Json="True" KeyNumber="51">
+      <Value Key="DisplayName" Value="CodeSampleTS" Type="String" />
+      <Value Key="Folder" Value="CodeSampleTS" Type="String" />
+      <Value Key="OriginalId" Value="" Type="String" />
+      <Value Key="Version" Value="00.00.13" Type="String" />
+    </Entity>
+    <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="App-Settings" AttributeSetName="App-Settings" EntityGUID="93fad585-ab2d-4d99-9259-5e11166f919a" KeyNumber="51" />
+    <Entity TargetType="3" AssignmentObjectType="App" AttributeSetStaticName="App-Resources" AttributeSetName="App-Resources" EntityGUID="4c1e7769-7f55-4130-9d2b-d552a54aea55" KeyNumber="51" />
+    <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="81230402-b1f5-46a9-9e49-52b44ff0bec7" AttributeSetName="Code" EntityGUID="16e9cbfd-b2b2-44f1-a1fd-d01f7983fd78">
+      <Value Key="language" Value="csharp" Type="String" />
+      <Value Key="theme" Value="vs-dark" Type="String" />
+      <Value Key="value" Value="namespace HelloWorld&#xA;{&#xA;    class Hello {         &#xA;        static void Main(string[] args)&#xA;        {&#xA;            System.Console.WriteLine(&quot;Hello World!&quot;);&#xA;        }&#xA;    }&#xA;}" Type="String" />
+    </Entity>
+    <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-Template" AttributeSetName="2SexyContent-Template" EntityGUID="a1528f86-ae1c-411c-8795-cd763df0857c" Json="True">
+      <Value Key="ContentDemoEntity" Value="16e9cbfd-b2b2-44f1-a1fd-d01f7983fd78" Type="Entity" />
+      <Value Key="ContentTypeStaticName" Value="81230402-b1f5-46a9-9e49-52b44ff0bec7" Type="String" />
+      <Value Key="Icon" Value="" Type="Hyperlink" />
+      <Value Key="Identifier" Value="" Type="String" />
+      <Value Key="IsHidden" Value="False" Type="Boolean" />
+      <Value Key="ListContentTypeStaticName" Value="" Type="String" />
+      <Value Key="ListPresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="Location" Value="Site" Type="String" />
+      <Value Key="Name" Value="CodeInMonacoTS" Type="String" />
+      <Value Key="Path" Value="_CodeInMonacoTS.cshtml" Type="String" />
+      <Value Key="PresentationTypeStaticName" Value="" Type="String" />
+      <Value Key="PublishData" Value="False" Type="Boolean" />
+      <Value Key="SearchIndexingDisabled" Value="False" Type="Boolean" />
+      <Value Key="SearchIndexingStreams" Value="" Type="String" />
+      <Value Key="StreamsToPublish" Value="" Type="String" />
+      <Value Key="Type" Value="C# Razor" Type="String" />
+      <Value Key="UseForList" Value="False" Type="Boolean" />
+      <Value Key="ViewController" Value="" Type="String" />
+      <Value Key="ViewNameInUrl" Value="" Type="String" />
+    </Entity>
+    <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="81230402-b1f5-46a9-9e49-52b44ff0bec7" AttributeSetName="Code" EntityGUID="2807447b-1c33-4668-9db1-1bf681e770fe">
+      <Value Key="language" Value="csharp" Type="String" />
+      <Value Key="theme" Value="vs-dark" Type="String" />
+      <Value Key="value" Value="System.Console.WriteLine(&quot;Hello&quot;);" Type="String" />
+    </Entity>
+    <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-ContentGroup" AttributeSetName="2SexyContent-ContentGroup" EntityGUID="b08e2e94-72f8-480c-a5be-a7f1eafca137" Json="True">
+      <Value Key="Content" Value="2807447b-1c33-4668-9db1-1bf681e770fe" Type="Entity" />
+      <Value Key="Presentation" Value="null" Type="Entity" />
+      <Value Key="Template" Value="a1528f86-ae1c-411c-8795-cd763df0857c" Type="Entity" />
+    </Entity>
+    <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="81230402-b1f5-46a9-9e49-52b44ff0bec7" AttributeSetName="Code" EntityGUID="3867c3b8-efec-4203-bcf6-62a3ee133a58">
+      <Value Key="language" Value="C#" Type="String" />
+      <Value Key="theme" Value="vs-dark" Type="String" />
+      <Value Key="value" Value="namespace HelloWorld235&#xA;{&#xA;    class Hello {         &#xA;        static void Main(string[] args)&#xA;        {&#xA;            System.Console.WriteLine(&quot;Hello World235!&quot;);&#xA;        }&#xA;    }&#xA;}" Type="String" />
+    </Entity>
+    <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="2SexyContent-ContentGroup" AttributeSetName="2SexyContent-ContentGroup" EntityGUID="40736966-875e-4c9b-a40e-c5b0d7c5d154" Json="True">
+      <Value Key="Content" Value="bbe2b059-c69a-41d1-b935-662fa8d76d71" Type="Entity" />
+      <Value Key="Presentation" Value="null" Type="Entity" />
+      <Value Key="Template" Value="a1528f86-ae1c-411c-8795-cd763df0857c" Type="Entity" />
+    </Entity>
+    <Entity TargetType="1" AssignmentObjectType="Default" AttributeSetStaticName="81230402-b1f5-46a9-9e49-52b44ff0bec7" AttributeSetName="Code" EntityGUID="bbe2b059-c69a-41d1-b935-662fa8d76d71">
+      <Value Key="language" Value="csharp" Type="String" />
+      <Value Key="theme" Value="vs-dark" Type="String" />
+      <Value Key="value" Value="namespace HelloWorld123&#xA;{&#xA;    class HelloWorld {         &#xA;        static void Main(string[] args)&#xA;        {&#xA;            System.Console.WriteLine(&quot;Hello&quot;);&#xA;        }&#xA;    }&#xA;}" Type="String" />
+    </Entity>
+  </Entities>
+  <PortalFiles />
+  <PortalFolders>
+    <Folder Id="1024" RelativePath="adam/CodeSampleTS/" />
+  </PortalFolders>
+</SexyContent>

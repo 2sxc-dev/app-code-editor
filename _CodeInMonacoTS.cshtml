@@ -1,0 +1,30 @@
+@inherits Custom.Hybrid.Razor14
+@* This inherits statement gets you features like App, CmsContext, Data etc. - you can delete this comment *@
+@using ToSic.Sxc.Services; @* Make it easier to use https://r.2sxc.org/services *@
+
+@{
+  Kit.Page.Activate("turnOn");
+  var uniqueMonacoContainer = "monaco-container-" + CmsContext.Module.Id;
+}
+
+@functions {
+    public IHtmlString DynToJson(dynamic dynEntity) {
+        return Html.Raw(Json.Encode(new ToSic.Sxc.Conversion.DataToDictionary().Convert(dynEntity as ToSic.Eav.Data.IEntityWrapper)));
+    }
+}
+
+<div>
+    <h2>Monaco Editor Sample TS</h2>
+    <div @uniqueMonacoContainer @Edit.TagToolbar(Content) style="width: 800px; height: 600px; border: 1px solid grey"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.33.0/min/vs/loader.min.js" integrity="sha512-O9SYDgWAM3bEzit1z6mkFd+dxKUplO/oB8UwYGAkg2Zy/WzDUQ2mYA/ysk3c0CxiXAN4u8T9JeZ0Ahk2Jj/33Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <turnOn turn-on='{   
+        "await": "window.require",
+        "run": "window.codeSample.initMonaco()",
+        "data": { 
+            "confMe": @DynToJson(@Content),
+            "appPath": "@App.Path",
+            "uniqueDomAttribute": "@uniqueMonacoContainer"
+        }
+    }'></turnOn>
+    <script src="@App.Path/dist/app.bundle.js"></script>
+</div>
